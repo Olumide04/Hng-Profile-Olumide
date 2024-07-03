@@ -1,13 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Tech Goals for the Next 2 Years</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="mein">
+      <img src="bbb.jpg" alt="" class="blurred-img" />
+      <div class="container">
+        <header>
+          <h1>My Tech Goals for the Next 2 Years</h1>
+        </header>
+        <main>
+          <section id="profile">
+            <img
+              src="olumide.jpeg"
+              alt="Slack Profile Picture"
+              data-testid="slackProfilePicture"
+              width="200"
+              height="200"
+            />
+            <p>
+              <strong>Slack Display Name:</strong>
+              <span data-testid="slackDisplayName">Olumide Ayeromara</span>
+            </p>
+            <p>
+              <strong>Slack Email:</strong>
+              <span data-testid="slackEmail">ayeromara12@gmail.com</span>
+            </p>
+            <p>
+              <strong>Current Time in UTC:</strong>
+              <span data-testid="currentTimeUTC"></span>
+            </p>
+            <p>
+              <strong>Current Day of the Week:</strong>
+              <span data-testid="currentDay"></span>
+            </p>
+          </section>
+          <section id="goals">
+            <h2>My Tech Goals</h2>
+            <ul>
+              <li>
+                <strong>Goal 1: Learn PHP</strong>
+                <p>
+                  I aim to become proficient in PHP to build dynamic and
+                  interactive web applications. Mastering PHP will help me
+                  understand server-side programming better and allow me to
+                  develop robust back-end systems.
+                </p>
+              </li>
+              <li>
+                <strong>Goal 2: Get a Frontend Developer job</strong>
+                <p>
+                  My goal is to secure a position as a Frontend Developer where
+                  I can apply my skills in HTML, CSS, and JavaScript and React
+                  to create engaging user interfaces. I plan to contribute to a
+                  team that values innovation and user experience.
+                </p>
+              </li>
+              <li>
+                <strong>Goal 3: Be very good in everything I do</strong>
+                <p>
+                  I strive for excellence in all my endeavors. Whether it’s
+                  learning new technologies, working on projects, or
+                  collaborating with others, I am committed to continuous
+                  improvement and delivering high-quality work.
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+              <li>
+                <a
+                  class="link"
+                  href="https://hng.tech/learn"
+                  data-testid="hngLink"
+                  target="_blank"
+                  >HNG Learn</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://keyword.dog"
+                  data-testid="keywordLink"
+                  target="_blank"
+                  >Keyword Dog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://scrapeanyweb.site"
+                  data-testid="scrapeanywebLink"
+                  target="_blank"
+                  >Scrape Any Web</a
+                >
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
